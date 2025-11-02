@@ -151,168 +151,6 @@ export default function AboutPage() {
                         </li>
                     </ul>
                 </div>
-                {/*Projects*/}
-                <div className="mt-10 sm:mt-14">
-                    <h2 className="mb-5 font-medium text-gray-800 dark:text-neutral-200">
-                        Projects
-                    </h2>
-
-                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-                        <a className="group block relative overflow-hidden rounded-lg" href="#">
-                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
-                                 src="https://images.unsplash.com/photo-1656618724305-a4257e46e847?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                 alt="Project"/>
-                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                                <div
-                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
-                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="11" cy="11" r="8"/>
-                                        <path d="m21 21-4.3-4.3"/>
-                                    </svg>
-                                    <span className="text-xs">View</span>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a className="group block relative overflow-hidden rounded-lg" href="#">
-                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
-                                 src="https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                 alt="Project"/>
-                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                                <div
-                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
-                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="11" cy="11" r="8"/>
-                                        <path d="m21 21-4.3-4.3"/>
-                                    </svg>
-                                    <span className="text-xs">View</span>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a className="group block relative overflow-hidden rounded-lg" href="#">
-                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
-                                 src="https://images.unsplash.com/photo-1516131206008-dd041a9764fd?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                 alt="Project"/>
-                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                                <div
-                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
-                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="11" cy="11" r="8"/>
-                                        <path d="m21 21-4.3-4.3"/>
-                                    </svg>
-                                    <span className="text-xs">View</span>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a className="group block relative overflow-hidden rounded-lg" href="#">
-                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
-                                 src="https://images.unsplash.com/photo-1707760696486-2a2cd7e0b6a6?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                 alt="Project"/>
-                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                                <div
-                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
-                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="11" cy="11" r="8"/>
-                                        <path d="m21 21-4.3-4.3"/>
-                                    </svg>
-                                    <span className="text-xs">View</span>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a className="group block relative overflow-hidden rounded-lg" href="#">
-                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
-                                 src="https://images.unsplash.com/photo-1585159812596-fac104f2f069?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                 alt="Project"/>
-                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                                <div
-                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
-                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="11" cy="11" r="8"/>
-                                        <path d="m21 21-4.3-4.3"/>
-                                    </svg>
-                                    <span className="text-xs">View</span>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a className="group block relative overflow-hidden rounded-lg" href="#">
-                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
-                                 src="https://images.unsplash.com/photo-1654131300276-db70adf4f85d?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                 alt="Project"/>
-                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
-                                <div
-                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
-                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <circle cx="11" cy="11" r="8"/>
-                                        <path d="m21 21-4.3-4.3"/>
-                                    </svg>
-                                    <span className="text-xs">View</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                {/*Testimonials*/}
-                <div className="mt-10 sm:mt-14">
-                    <h2 className="mb-3 font-medium text-gray-800 dark:text-neutral-200">
-                        Testimonials
-                    </h2>
-
-                    <div
-                        className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-gray-200 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
-                        <div className="sm:-ms-4 py-6 sm:px-4">
-                            <blockquote>
-                                <span className="text-sm text-gray-800 dark:text-neutral-200">I'm absolutely floored by the level of care and attention to detail Eliana has put into this project and for one can guarantee that we will be a return customer.</span>
-
-                                <footer className="mt-3">
-                                    <div className="flex items-center gap-x-2">
-                                        <img className="shrink-0 size-5 rounded-full"
-                                             src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                                             alt="Avatar"/>
-                                        <div className="grow">
-                                            <div className="text-xs text-gray-500 dark:text-neutral-500">Josh Grazioso
-                                            </div>
-                                        </div>
-                                    </div>
-                                </footer>
-                            </blockquote>
-                        </div>
-
-                        <div className="py-6 sm:px-4">
-                            <blockquote>
-                                <span className="text-sm text-gray-800 dark:text-neutral-200">To say that hiring Eliana has been life-changing is an understatement. My business has tripled and I got my life back.</span>
-
-                                <footer className="mt-3">
-                                    <div className="flex items-center gap-x-2">
-                                        <img className="shrink-0 size-5 rounded-full"
-                                             src="https://images.unsplash.com/photo-1671726203390-cdc4354ee2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
-                                             alt="Avatar"/>
-                                        <div className="grow">
-                                            <div className="text-xs text-gray-500 dark:text-neutral-500">Nicole
-                                                Grazioso
-                                            </div>
-                                        </div>
-                                    </div>
-                                </footer>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
                 {/*Skills*/}
                 <div className="my-10 sm:my-14">
                     <h2 className="mb-5 font-medium text-gray-800 dark:text-neutral-200">
@@ -677,7 +515,169 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </div>
+                {/*Projects*/}
+                <div className="mt-10 sm:mt-14">
+                    <h2 className="mb-5 font-medium text-gray-800 dark:text-neutral-200">
+                        Projects
+                    </h2>
 
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                        <a className="group block relative overflow-hidden rounded-lg" href="#">
+                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                                 src="https://images.unsplash.com/photo-1656618724305-a4257e46e847?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                 alt="Project"/>
+                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+                                <div
+                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
+                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="11" cy="11" r="8"/>
+                                        <path d="m21 21-4.3-4.3"/>
+                                    </svg>
+                                    <span className="text-xs">View</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a className="group block relative overflow-hidden rounded-lg" href="#">
+                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                                 src="https://images.unsplash.com/photo-1616427592793-67b858804534?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                 alt="Project"/>
+                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+                                <div
+                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
+                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="11" cy="11" r="8"/>
+                                        <path d="m21 21-4.3-4.3"/>
+                                    </svg>
+                                    <span className="text-xs">View</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a className="group block relative overflow-hidden rounded-lg" href="#">
+                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                                 src="https://images.unsplash.com/photo-1516131206008-dd041a9764fd?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                 alt="Project"/>
+                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+                                <div
+                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
+                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="11" cy="11" r="8"/>
+                                        <path d="m21 21-4.3-4.3"/>
+                                    </svg>
+                                    <span className="text-xs">View</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a className="group block relative overflow-hidden rounded-lg" href="#">
+                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                                 src="https://images.unsplash.com/photo-1707760696486-2a2cd7e0b6a6?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                 alt="Project"/>
+                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+                                <div
+                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
+                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="11" cy="11" r="8"/>
+                                        <path d="m21 21-4.3-4.3"/>
+                                    </svg>
+                                    <span className="text-xs">View</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a className="group block relative overflow-hidden rounded-lg" href="#">
+                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                                 src="https://images.unsplash.com/photo-1585159812596-fac104f2f069?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                 alt="Project"/>
+                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+                                <div
+                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
+                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="11" cy="11" r="8"/>
+                                        <path d="m21 21-4.3-4.3"/>
+                                    </svg>
+                                    <span className="text-xs">View</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a className="group block relative overflow-hidden rounded-lg" href="#">
+                            <img className="w-full size-40 object-cover bg-gray-100 rounded-lg dark:bg-neutral-800"
+                                 src="https://images.unsplash.com/photo-1654131300276-db70adf4f85d?q=80&w=320&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                 alt="Project"/>
+                            <div className="absolute bottom-1 end-1 opacity-0 group-hover:opacity-100 transition">
+                                <div
+                                    className="flex items-center gap-x-1 py-1 px-2 bg-white border border-gray-200 text-gray-800 rounded-lg dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
+                                    <svg className="shrink-0 size-3" xmlns="http://www.w3.org/2000/svg" width="24"
+                                         height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="11" cy="11" r="8"/>
+                                        <path d="m21 21-4.3-4.3"/>
+                                    </svg>
+                                    <span className="text-xs">View</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                {/*Testimonials*/}
+                <div className="mt-10 sm:mt-14">
+                    <h2 className="mb-3 font-medium text-gray-800 dark:text-neutral-200">
+                        Testimonials
+                    </h2>
+
+                    <div
+                        className="grid grid-cols-1 sm:grid-cols-2 gap-x-3 border-y border-gray-200 divide-y sm:divide-y-0 sm:divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
+                        <div className="sm:-ms-4 py-6 sm:px-4">
+                            <blockquote>
+                                <span className="text-sm text-gray-800 dark:text-neutral-200">I'm absolutely floored by the level of care and attention to detail Eliana has put into this project and for one can guarantee that we will be a return customer.</span>
+
+                                <footer className="mt-3">
+                                    <div className="flex items-center gap-x-2">
+                                        <img className="shrink-0 size-5 rounded-full"
+                                             src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                                             alt="Avatar"/>
+                                        <div className="grow">
+                                            <div className="text-xs text-gray-500 dark:text-neutral-500">Josh Grazioso
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>
+                            </blockquote>
+                        </div>
+
+                        <div className="py-6 sm:px-4">
+                            <blockquote>
+                                <span className="text-sm text-gray-800 dark:text-neutral-200">To say that hiring Eliana has been life-changing is an understatement. My business has tripled and I got my life back.</span>
+
+                                <footer className="mt-3">
+                                    <div className="flex items-center gap-x-2">
+                                        <img className="shrink-0 size-5 rounded-full"
+                                             src="https://images.unsplash.com/photo-1671726203390-cdc4354ee2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                                             alt="Avatar"/>
+                                        <div className="grow">
+                                            <div className="text-xs text-gray-500 dark:text-neutral-500">Nicole
+                                                Grazioso
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                {/*Articles*/}
                 <div className="my-10 sm:my-14">
                     <h2 className="mb-5 font-medium text-gray-800 dark:text-neutral-200">
                         Articles
