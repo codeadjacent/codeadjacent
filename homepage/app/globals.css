@@ -1,15 +1,18 @@
 @import "tailwindcss";
-@plugin "daisyui";
-
-:root {
-    --menu-active-fg: #000;
-    --menu-active-bg: #fff;
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark;
 }
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-.menu :where(li) > :not(ul, .menu-title, details, .btn):active{
-    color: inherit;
-    background-color: #efefef;
-}
+/*:root {*/
+/*    --menu-active-fg: #000;*/
+/*    --menu-active-bg: #fff;*/
+/*}*/
+
+/*.menu :where(li) > :not(ul, .menu-title, details, .btn):active{*/
+/*    color: inherit;*/
+/*    background-color: #efefef;*/
+/*}*/
 
 @utility container {
     padding-inline: 1rem;

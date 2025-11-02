@@ -1,11 +1,11 @@
 import Link from "next/link";
 import RouterLink from "@/components/client/router-link";
+import ThemeToggle from "@/components/client/theme-toggle";
 
 export default function Header() {
     return (
-        <div className="navbar sticky top-4 bg-base-100 shadow-sm p-0 min-h-0">
+        <div className="navbar sticky top-4 z-20 bg-base-100 shadow-sm p-0 min-h-0 px-4">
             <div className="navbar-start w-min">
-
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -22,7 +22,7 @@ export default function Header() {
                         <li><RouterLink href="/about">About</RouterLink></li>
                     </ul>
                 </div>
-                <Link href="/" className="btn btn-ghost text-xl">CodeAdjacent</Link>
+                <Link href="/" className="text-xl font-bold">CodeAdjacent</Link>
             </div>
             <div className="navbar-end w-full">
                 <ul className="menu menu-horizontal gap-2 [&_li>*]:rounded-none hidden lg:flex">
@@ -30,6 +30,7 @@ export default function Header() {
                     <li><RouterLink href="/podcast">Podcast</RouterLink></li>
                     <li><RouterLink href="/about">About</RouterLink></li>
                 </ul>
+                <ThemeToggle></ThemeToggle>
             </div>
         </div>
     )
