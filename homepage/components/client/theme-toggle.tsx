@@ -1,9 +1,12 @@
 'use client';
-import {ChangeEvent, useState} from "react";
+import {ChangeEvent, useEffect, useState} from "react";
 
 
 export default function ThemeToggle() {
-    const [isDark, setIsDark] = useState(window.localStorage.getItem('theme') === 'dark')
+    const [isDark, setIsDark] = useState(false)
+    useEffect(()=>{
+        setIsDark(window.localStorage.getItem('theme') === 'dark')
+    })
     const handleThemeChange = (evt: ChangeEvent<HTMLInputElement>) => {
         const isDark = evt.target.checked;
         setIsDark(isDark)
