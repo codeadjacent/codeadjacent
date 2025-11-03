@@ -1,0 +1,14 @@
+{
+  "HEADER": {
+    "TOOLTIP#CURRENT_THEME": "Aktuelles Farbschema"
+  },
+  "LOCALE": {
+    "de": "Deutsch",
+    "en": "Englisch"
+  },
+  "ABOUT": {
+    "INTRODUCTION": {
+      "TEXT#SUMMARY": "Ich habe in den letzten 8 Jahren über 15 Full-Stack-Webanwendungen entwickelt und implementiert, darunter auch groß angelegte CMS und MES SaaS-Unternehmenslösungen."
+    }
+  }
+}

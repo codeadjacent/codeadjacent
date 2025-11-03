@@ -6,6 +6,7 @@ import {Mail} from "lucide-react";
 import TimelineItem from "@/components/server/timeline-section";
 import Xl2Logo from "@/components/server/logos/xl2-logo";
 import {WorkExperience} from "@/types/work-experience";
+import {useTranslations} from 'next-intl';
 
 const SELFBITS_COMPANY: WorkExperience['company'] = {
     name: 'Selfbits',
@@ -82,6 +83,7 @@ const workExperiences: WorkExperience[] = [
 ]
 
 export default function AboutPage() {
+    const introductionTranslate = useTranslations('ABOUT.INTRODUCTION');
     return (
         <main id="content">
             <div className="w-full max-w-2xl mx-auto pt-10 px-4 sm:px-6 lg:px-8">
@@ -104,8 +106,7 @@ export default function AboutPage() {
 
                 <div className="mt-8">
                     <p className="text-sm text-gray-600 dark:text-neutral-400">
-                        I have designed and implemented over 15 full stack web applications over the past 8 years,
-                        including large-scale CMS and MES SaaS enterprise solutions.
+                        {introductionTranslate('TEXT#SUMMARY')}
                     </p>
 
                     <p className="mt-3 text-sm text-gray-600 dark:text-neutral-400">

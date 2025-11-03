@@ -1,6 +1,7 @@
 import Link from "next/link";
 import RouterLink from "@/components/client/router-link";
-import ThemeToggle from "@/components/client/theme-toggle";
+import ThemeSwitcher from "@/components/client/theme-switcher";
+import LanguageSwitcher from "@/components/client/language-switcher";
 
 
 export default function Header() {
@@ -31,7 +32,8 @@ export default function Header() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <ThemeToggle></ThemeToggle>
+                <ThemeSwitcher></ThemeSwitcher>
+                <LanguageSwitcher></LanguageSwitcher>
             </div>
         </div>
     )
