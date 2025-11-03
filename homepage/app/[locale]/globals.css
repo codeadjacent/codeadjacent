@@ -1,7 +1,13 @@
 @import "tailwindcss";
+
 @plugin "daisyui" {
     themes: light --default, dark --prefersdark;
 }
+@plugin "daisyui/theme" {
+    name: "light";
+    --root-bg: #fafafa;
+}
+
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 /*:root {*/
@@ -14,11 +20,15 @@
 /*    background-color: #efefef;*/
 /*}*/
 
+@layer components {
+    .content-container {
+        @apply w-full max-w-3xl mx-auto pt-10 px-4 sm:px-6 lg:px-8;
+    }
+}
+
 @utility container {
     padding-inline: 1rem;
 }
-
-
 
 
 /*:root {*/

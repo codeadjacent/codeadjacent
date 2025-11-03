@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/server/header/header";
 import {ThemeProvider} from "next-themes";
 import {NextIntlClientProvider} from "next-intl";
+import {PdfViewerModalProvider} from "@/context/pdf-viewer-modal-context";
+import PdfViewerModal from "@/components/client/pdf-viewer-modal";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -28,14 +30,17 @@ export default function RootLayout({
     return (
         <html suppressHydrationWarning>
         <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+            className={`${geistSans.variable} ${geistMono.variable} antialiased `}
         >
         <ThemeProvider enableSystem={true} defaultTheme="system">
             <NextIntlClientProvider>
-                <div className="container mx-auto">
-                    <Header></Header>
-                    {children}
-                </div>
+                <PdfViewerModalProvider>
+                    <div className="container mx-auto">
+                        <Header></Header>
+                        {children}
+                    </div>
+                    <PdfViewerModal></PdfViewerModal>
+                </PdfViewerModalProvider>
             </NextIntlClientProvider>
         </ThemeProvider>
         </body>
