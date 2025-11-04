@@ -8,7 +8,7 @@ import FigmaLogo from "@/components/server/logos/figma-logo";
 
 export default function Header() {
     return (
-        <div className="navbar sticky top-4 z-20 bg-base-100 shadow-sm p-0 min-h-0 px-4 bg-white/95">
+        <div className="navbar sticky top-4 z-20 shadow-sm p-0 min-h-0 px-4 bg-white/95 dark:bg-black/85">
             <div className="navbar-start w-full flex items-center">
                 <Link href="/" className="text-xl font-bold">CodeAdjacent</Link>
                 <ul className="menu menu-horizontal ml-6 gap-2 [&_li>*]:rounded-none hidden lg:flex">
