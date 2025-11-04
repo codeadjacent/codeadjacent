@@ -25,7 +25,7 @@ export default function ThemeSwitcher() {
     return (
         <div className="dropdown dropdown-bottom dropdown-end lg:tooltip lg:tooltip-left"
              data-tip={t("TOOLTIP#CURRENT_THEME") + ': ' + capitalize(theme)}>
-            <div tabIndex={0} role="button" className="btn btn-ghost btn-sm m-1">{themeIconMap[theme ?? 'system']}
+            <div tabIndex={0} role="button" className="btn btn-ghost btn-sm p-0">{themeIconMap[theme ?? 'system']}
                 <ChevronDown size={16}/></div>
             <ul tabIndex={-1} onClick={() => (document.activeElement as HTMLInputElement)?.blur?.()}
                 className="dropdown-content menu bg-base-100 rounded-box z-1 p-2 shadow-sm">

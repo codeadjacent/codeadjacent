@@ -8,7 +8,16 @@
   },
   "ABOUT": {
     "INTRODUCTION": {
-      "TEXT#SUMMARY": "Ich habe in den letzten 8 Jahren über 15 Full-Stack-Webanwendungen entwickelt und implementiert, darunter auch groß angelegte CMS und MES SaaS-Unternehmenslösungen."
+      "TEXT#SUMMARY": "Entwurf und Bereitstellung von 15 Full-Stack-Webanwendungen über einen Zeitraum von 8 Jahren, darunter groß angelegte CMS- und MES-SaaS-Unternehmenslösungen mit bis zu 1,5 Millionen LoC. Leitung von Teams mit bis zu 10 Mitarbeitern und Betreuung von über 20 Nachwuchskräften/Praktikanten."
+    },
+    "WORK_EXPERIENCE": {
+      "HEADING#WORK_EXPERIENCE": "Arbeitserfahrung"
+    },
+    "EDUCATION": {
+      "HEADING#EDUCATION": "Ausbildung",
+      "LABEL#INFORMATION_ENGINEERING": "Informationswirtschaft",
+      "LABEL#INDUSTRIAL_ENGINEERING": "Wirtschaftsingenieurwesen",
+      "LABEL#GRADE": "Note"
     }
   }
 }
