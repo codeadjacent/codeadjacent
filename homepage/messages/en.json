@@ -1,0 +1,23 @@
+{
+  "HEADER": {
+    "TOOLTIP#CURRENT_THEME": "Current Theme"
+  },
+  "LOCALE": {
+    "de": "German",
+    "en": "English"
+  },
+  "ABOUT": {
+    "INTRODUCTION": {
+      "TEXT#SUMMARY": "Designed and delivered 15 full stack web applications over 8 years, including large-scale CMS and MES SaaS enterprise solutions up to 1.5M LoC. Led teams up to 10 people and mentored over 20 juniors/interns."
+    },
+    "WORK_EXPERIENCE": {
+      "HEADING#WORK_EXPERIENCE": "Work experience"
+    },
+    "EDUCATION": {
+      "HEADING#EDUCATION": "Education",
+      "LABEL#INFORMATION_ENGINEERING": "Information Engineering & Management",
+      "LABEL#INDUSTRIAL_ENGINEERING": "Industrial Engineering & Management",
+      "LABEL#GRADE": "Grade"
+    }
+  }
+}

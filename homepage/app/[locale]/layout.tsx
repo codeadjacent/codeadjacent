@@ -1,0 +1,48 @@
+import type {Metadata} from "next";
+import {Geist, Geist_Mono} from "next/font/google";
+import "./globals.css";
+import Header from "@/components/server/header";
+import {ThemeProvider} from "next-themes";
+import {NextIntlClientProvider} from "next-intl";
+import {PdfViewerModalProvider} from "@/context/pdf-viewer-modal-context";
+import PdfViewerModal from "@/components/client/pdf-viewer-modal";
+
+const geistSans = Geist({
+    variable: "--font-geist-sans",
+    subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+    variable: "--font-geist-mono",
+    subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+    title: "CodeAdjacent",
+};
+
+export default function RootLayout({
+                                       children,
+                                   }: Readonly<{
+    children: React.ReactNode;
+}>) {
+    return (
+        <html suppressHydrationWarning>
+        <body
+            className={`${geistSans.variable} ${geistMono.variable} antialiased `}
+        >
+        <ThemeProvider enableSystem={true} defaultTheme="system">
+            <NextIntlClientProvider>
+                <PdfViewerModalProvider>
+                    <div className="container mx-auto">
+                        <Header></Header>
+                        {children}
+                    </div>
+                    <PdfViewerModal></PdfViewerModal>
+                </PdfViewerModalProvider>
+            </NextIntlClientProvider>
+        </ThemeProvider>
+        </body>
+        </html>
+    );
+}
