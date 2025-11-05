@@ -6,6 +6,7 @@ import {ThemeProvider} from "next-themes";
 import {NextIntlClientProvider} from "next-intl";
 import {PdfViewerModalProvider} from "@/context/pdf-viewer-modal-context";
 import PdfViewerModal from "@/components/client/pdf-viewer-modal";
+import {GoogleAnalytics} from '@next/third-parties/google'
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -43,6 +44,7 @@ export default function RootLayout({
             </NextIntlClientProvider>
         </ThemeProvider>
         </body>
+        <GoogleAnalytics gaId="G-V2L3MDGED2"/>
         </html>
     );
 }

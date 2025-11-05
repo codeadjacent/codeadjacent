@@ -12,12 +12,12 @@ const FILES: Record<string, string> = {
 }
 
 export default function EducationSection() {
-    const educationTranslate = useTranslations('ABOUT.EDUCATION');
+    const translate = useTranslations('ABOUT.EDUCATION');
     const {open} = usePdfViewModal()
     return (
         <section>
             <h2 className="mb-3 font-medium">
-                {educationTranslate('HEADING#EDUCATION')}
+                {translate('HEADING#EDUCATION')}
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -26,11 +26,11 @@ export default function EducationSection() {
                         <Image src={kitLogo} className="w-18" alt="KIT"/>
                         <div>
                             <p>2015 - 2018</p>
-                            <h3 className="font-bold">M.Sc. {educationTranslate('LABEL#INFORMATION_ENGINEERING')}</h3>
+                            <h3 className="font-bold">M.Sc. {translate('LABEL#INFORMATION_ENGINEERING')}</h3>
                             <p><Link className="link link-hover" href="https://www.kit.edu/" target="_blank">Karlsruhe
                                 Institute of
                                 Technology</Link></p>
-                            <p>{educationTranslate('LABEL#GRADE')} 2.1</p>
+                            <p>{translate('LABEL#GRADE')} 2.1</p>
                         </div>
                     </div>
                 </div>
@@ -39,11 +39,11 @@ export default function EducationSection() {
                         <Image src={kitLogo} className="w-18" alt="KIT"/>
                         <div>
                             <p>2015 - 2018</p>
-                            <h3 className="font-bold">B.Sc. {educationTranslate('LABEL#INDUSTRIAL_ENGINEERING')}</h3>
+                            <h3 className="font-bold">B.Sc. {translate('LABEL#INDUSTRIAL_ENGINEERING')}</h3>
                             <p><Link className="link link-hover" href="https://www.kit.edu/" target="_blank">Karlsruhe
                                 Institute of
                                 Technology</Link></p>
-                            <p>{educationTranslate('LABEL#GRADE')} 1.8</p>
+                            <p>{translate('LABEL#GRADE')} 1.8</p>
                         </div>
                     </div>
                 </div>
