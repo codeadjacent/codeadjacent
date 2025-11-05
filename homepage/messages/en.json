@@ -18,6 +18,9 @@
       "LABEL#INFORMATION_ENGINEERING": "Information Engineering & Management",
       "LABEL#INDUSTRIAL_ENGINEERING": "Industrial Engineering & Management",
       "LABEL#GRADE": "Grade"
+    },
+    "RECENT_WORKS": {
+      "HEADING#RECENT_WORKS": "Recent Works"
     }
   }
 }
