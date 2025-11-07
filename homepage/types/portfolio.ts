@@ -13,5 +13,6 @@ export interface PortfolioItemProps {
     description?: string;
     images?: PortfolioItemImage[];
     link?: string;
+    youtubeURl?:string;
     labels?: PortfolioItemLabel[]
 }
