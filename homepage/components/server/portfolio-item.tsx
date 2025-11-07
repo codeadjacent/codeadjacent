@@ -4,10 +4,13 @@ import React from "react";
 
 
 export default function PortfolioItem({props}: { props: PortfolioItemProps }) {
-    const {title, description, labels, images} = props;
-    let imageElement: React.JSX.Element | null = null;
-    if (images && images.length > 0) {
-        imageElement = <figure className="hover-gallery">
+    const {title, description, labels, images, youtubeURl} = props;
+    let visuals: React.JSX.Element | null = null;
+    if (youtubeURl) {
+        visuals = <iframe
+                          height="300" src={youtubeURl} allowFullScreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"/>
+    } else if (images && images.length > 0) {
+        visuals = <figure className="hover-gallery">
             {
                 images?.map((image, idx) => (
                     <Image key={idx} src={image.url} alt={image.alt} width={1000} height={1000}/>
@@ -18,7 +21,7 @@ export default function PortfolioItem({props}: { props: PortfolioItemProps }) {
 
     return (
         <div className="card bg-base-100 shadow-sm">
-            {imageElement}
+            {visuals}
             <div className="card-body">
                 <h2 className="card-title">
                     {title}

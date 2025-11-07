@@ -7,8 +7,9 @@ export const PORTFOLIO_LIST: PortfolioItemProps[] = [
     //     title: 'Validation Engine',
     // },
     {
-        title: 'Audi NewTON Apptrack',
-        description: "WiP :)"
+        title: 'Reduce critical meeting duration by 30min at Audi within 6 months',
+        description: "@XL2, I led a team to launch the first version of a critical application within 6 months, enabling stakeholders to approve and sign off car parts in meetings for serial production completely digitally.",
+        youtubeURl: "https://www.youtube.com/embed/yLmEUbDdqOM"
         // description: '@XL2, I led a team to launch the first version of a critical application within 6 months, enabling stakeholders to approve and sign off car parts in meetings for serial production completely digitally.'
     }, {
         title: 'Audi Component Repository',
