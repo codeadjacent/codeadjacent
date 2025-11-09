@@ -20,7 +20,7 @@ export interface PortfolioItemProps {
     role: string;
     startDate?: string;
     endDate?: string;
-    description?: string;
+    description: string;
     images?: PortfolioItemImage[];
     link?: string;
     youtubeURl?: string;

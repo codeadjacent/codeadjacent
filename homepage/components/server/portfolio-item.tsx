@@ -2,9 +2,11 @@ import {PortfolioItemProps} from "@/types/portfolio";
 import Image from "next/image";
 import React from "react";
 import {getTimeRange} from "@/lib/utils/date/timerange";
+import {useTranslations} from "next-intl";
 
 
 export default function PortfolioItem({props}: { props: PortfolioItemProps }) {
+    const t = useTranslations();
     const {title, description, labels, images, youtubeURl, teckStack, role, startDate, endDate} = props;
     const dateFormat = 'LL.yyyy';
     let visuals: React.JSX.Element | null = null;
@@ -29,7 +31,8 @@ export default function PortfolioItem({props}: { props: PortfolioItemProps }) {
     }
     let teckStackElements: React.JSX.Element | null = null;
     if (teckStack && teckStack.length > 0) {
-        teckStackElements = <div className="flex items-center gap-2 flex-wrap justify-between  dark:h-10  dark:bg-white dark:px-1 dark:rounded-sm">
+        teckStackElements = <div
+            className="flex items-center gap-2 flex-wrap justify-between  dark:h-10  dark:bg-white dark:px-1 dark:rounded-sm">
             {teckStack.map((item, idx) => (
                 item.nextImage
             ))}
@@ -37,16 +40,16 @@ export default function PortfolioItem({props}: { props: PortfolioItemProps }) {
     }
 
     return (
-        <div className="card bg-base-100 shadow-sm">
+        <div className="card bg-base-100 shadow-sm dark:bg-base-300">
             {visuals}
             <div className="card-body">
                 <h2 className="card-title">
-                    {title}
+                    {t(title)}
                 </h2>
                 <p>
-                    Role: {role} ({getTimeRange({startDate, endDate, format: dateFormat})})
+                    {t('SHARED.LABELS.ROLE')}: {role} ({getTimeRange({startDate, endDate, format: dateFormat})})
                 </p>
-                <p>{description}</p>
+                <p>{t(description)}</p>
                 <div className="card-actions justify-end">
                     {labels?.map((label, idx) => (
                         <div key={idx} className="badge badge-outline">{label.text}</div>

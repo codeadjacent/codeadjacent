@@ -15,29 +15,26 @@ import ionicLogo from "@/public/logos/ionic.png"
 import Image from "next/image";
 
 const LOGOS = {
-    ANGULAR: <Image src={angularLogo} alt="Angular" width={50} height={30}/>,
-    NEST: <Image src={nestLogo} alt="NestJs" width={50} height={30}/>,
-    GRAPHQL: <Image src={graphqlLogo} alt="GraphQL" width={50} height={30}/>,
-    POSTGRES: <Image src={postgresLogo} alt="Postgres" width={50} height={30}/>,
-    REACT: <Image src={reactLogo} alt="React" width={50} height={30}/>,
-    DOCKER: <Image src={dockerLogo} alt="Docker" width={50} height={30}/>,
-    KUBERNETES: <Image src={kubernetesLogo} alt="Kubernetes" width={50} height={30}/>,
-    IONIC: <Image src={ionicLogo} alt="Ionic" width={50} height={30}/>,
-    AWS: <Image src={awsLogo} alt="AWS" width={25} height={30}/>,
-    DYNAMODB: <Image src={dynamodbLogo} alt="DynamoDB" width={70} height={30}/>,
-    REST: <Image src={restLogo} alt="REST" width={30} height={30}/>,
+    ANGULAR: <Image key="Angular" src={angularLogo} alt="Angular" width={50} height={30}/>,
+    NEST: <Image key="NestJs" src={nestLogo} alt="NestJs" width={50} height={30}/>,
+    GRAPHQL: <Image key="GraphQL" src={graphqlLogo} alt="GraphQL" width={50} height={30}/>,
+    POSTGRES: <Image key="Postgres" src={postgresLogo} alt="Postgres" width={50} height={30}/>,
+    REACT: <Image key="React" src={reactLogo} alt="React" width={50} height={30}/>,
+    DOCKER: <Image key="Docker" src={dockerLogo} alt="Docker" width={50} height={30}/>,
+    KUBERNETES: <Image key="Kubernetes" src={kubernetesLogo} alt="Kubernetes" width={50} height={30}/>,
+    IONIC: <Image key="Ionic" src={ionicLogo} alt="Ionic" width={50} height={30}/>,
+    AWS: <Image key="AWS" src={awsLogo} alt="AWS" width={25} height={30}/>,
+    DYNAMODB: <Image key="DynamoDB" src={dynamodbLogo} alt="DynamoDB" width={70} height={30}/>,
+    REST: <Image key="REST" src={restLogo} alt="REST" width={30} height={30}/>,
 }
 
 export const PORTFOLIO_LIST: PortfolioItemProps[] = [
-    // {
-    //     title: 'Validation Engine',
-    // },
     {
-        title: 'Cut 30+ mins from part approval process for series production.',
+        title: 'PORTFOLIO.APPTRACK.TITLE',
+        description: "PORTFOLIO.APPTRACK.DESCRIPTION",
         role: 'Tech Lead',
         startDate: '2024-05-01',
         endDate: '2025-08-31',
-        description: "@XL2, I lead a team that launched the first version of an application for a major German car manufacturer within six months. This application reduced the approval and sign-off process in meetings for car parts before series production by at least 30 minutes.",
         youtubeURl: "https://www.youtube.com/embed/yLmEUbDdqOM",
         teckStack: [
             {name: 'Angular 19', nextImage: LOGOS.ANGULAR},
@@ -47,8 +44,8 @@ export const PORTFOLIO_LIST: PortfolioItemProps[] = [
             {name: 'Docker', nextImage: LOGOS.DOCKER},
         ]
     }, {
-        title: 'Mange battery components for batch tracking and legal hold.',
-        description: "@XL2, I lead 2 junior devs to refactor a react app into angular application for managing battery component data. The resulting angular project went on to become the standard setup for at least 5 other XL2 projects.",
+        title: 'PORTFOLIO.CTR.TITLE',
+        description: "PORTFOLIO.CTR.DESCRIPTION",
         role: 'UX/Frontend Lead',
         startDate: '2023-10-01',
         endDate: '2024-06-30',
@@ -77,8 +74,8 @@ export const PORTFOLIO_LIST: PortfolioItemProps[] = [
             {name: 'AWS', nextImage: LOGOS.AWS},
         ]
     }, {
-        title: 'Selfbits Manufacturing Suite',
-        description: "Designed, implemented, and operated a SaaS MES Solution (web, mobile and TV) for 200+ users across 5 European factories.",
+        title: 'PORTFOLIO.SMS.TITLE',
+        description: "PORTFOLIO.SMS.DESCRIPTION",
         role: 'UX/Frontend Lead',
         startDate: '2020-08-01',
         endDate: '2023-09-30',
