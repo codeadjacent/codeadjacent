@@ -22,5 +22,24 @@
     "RECENT_WORKS": {
       "HEADING#RECENT_WORKS": "Recent Works"
     }
+  },
+  "PORTFOLIO": {
+    "APPTRACK": {
+      "TITLE": "Cut 30+ mins from part approval process for series production.",
+      "DESCRIPTION": "@XL2, I lead a team that launched the first version of an application for a major German car manufacturer within six months. This application reduced the approval and sign-off process in meetings for car parts before series production by at least 30 minutes."
+    },
+    "CTR": {
+      "TITLE": "Mange battery components for batch tracking and legal hold.",
+      "DESCRIPTION": "@XL2, I lead 2 junior devs to refactor a react app into angular application for managing battery component data. The resulting angular project went on to become the standard setup for at least 5 other XL2 projects."
+    },
+    "SMS": {
+      "TITLE": "Manufacturing Execution System with order based OEE-KPI acquisition and reporting",
+      "DESCRIPTION": "Designed, implemented, and operated a web based SaaS Solution (web, mobile and TV) for 200+ users across 5 European factories."
+    }
+  },
+  "SHARED": {
+    "LABELS": {
+      "ROLE": "Role"
+    }
   }
 }

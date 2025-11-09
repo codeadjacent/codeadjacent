@@ -22,5 +22,24 @@
     "RECENT_WORKS": {
       "HEADING#RECENT_WORKS": "Aktuelle Projekte"
     }
+  },
+  "PORTFOLIO": {
+    "APPTRACK": {
+      "TITLE": "30+ min effizienter im Freigabetermine für die Serienproduktion.",
+      "DESCRIPTION": "@XL2, leitete ich ein Team, das innerhalb von sechs Monaten die erste Version einer Anwendung für einen deutschen Automobilhersteller live geschaltet hat. Diese Anwendung reduzierte den Freigabeprozess von Autoteilen in Freigabetermine vor der Serienproduktion um mindestens 30 Minuten."
+    },
+    "CTR": {
+      "TITLE": "Verwaltung von Batteriekomponenten für die Chargenverfolgung und Legal Hold.",
+      "DESCRIPTION": "@XL2, leitete ich 2 Junior-Entwickler beim Refactoring einer App von React in Angular zur Verwaltung von Batteriedaten. Das daraus resultierende Angular-Projekt wurde zum Standardsetup für mindestens 5 weitere XL2-Projekte."
+    },
+    "SMS": {
+      "TITLE": "Manufacturing Execution System mit auftragsbasierter OEE-KPI-Erfassung",
+      "DESCRIPTION": "@Selfibts konzipierte, implementierte und betrieb ich eine webbasierte SaaS-Lösung (Web, Mobile und TV) für über 200 Benutzer in 5 europäischen Fabriken."
+    }
+  },
+  "SHARED": {
+    "LABELS": {
+      "ROLE": "Rolle"
+    }
   }
 }

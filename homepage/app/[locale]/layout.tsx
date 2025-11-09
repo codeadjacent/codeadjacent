@@ -7,6 +7,7 @@ import {NextIntlClientProvider} from "next-intl";
 import {PdfViewerModalProvider} from "@/context/pdf-viewer-modal-context";
 import PdfViewerModal from "@/components/client/pdf-viewer-modal";
 import {GoogleAnalytics} from '@next/third-parties/google'
+import Script from "next/script";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -29,6 +30,9 @@ export default function RootLayout({
 }>) {
     return (
         <html suppressHydrationWarning>
+        <head>
+            <Script src="https://t.contentsquare.net/uxa/1b84f086c3e82.js"/>
+        </head>
         <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased `}
         >
@@ -44,6 +48,7 @@ export default function RootLayout({
             </NextIntlClientProvider>
         </ThemeProvider>
         </body>
+
         <GoogleAnalytics gaId="G-V2L3MDGED2"/>
         </html>
     );

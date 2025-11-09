@@ -21,9 +21,9 @@ export default function EducationSection() {
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div className="card bg-base-100 shadow-sm" onClick={() => open(FILES.KIT_MASTER)}>
+                <div className="card bg-base-100 shadow-sm dark:bg-base-300" onClick={() => open(FILES.KIT_MASTER)}>
                     <div className="card-body">
-                        <Image src={kitLogo} className="w-18" alt="KIT"/>
+                        <Image src={kitLogo} className="w-18 dark:bg-white dark:p-1 dark:rounded-sm" alt="KIT"/>
                         <div>
                             <p>2015 - 2018</p>
                             <h3 className="font-bold">M.Sc. {translate('LABEL#INFORMATION_ENGINEERING')}</h3>
@@ -34,9 +34,9 @@ export default function EducationSection() {
                         </div>
                     </div>
                 </div>
-                <div className="card bg-base-100 shadow-sm" onClick={() => open(FILES.KIT_BACHELOR)}>
+                <div className="card bg-base-100 shadow-sm dark:bg-base-300" onClick={() => open(FILES.KIT_BACHELOR)}>
                     <div className="card-body">
-                        <Image src={kitLogo} className="w-18" alt="KIT"/>
+                        <Image src={kitLogo} className="w-18 dark:bg-white dark:p-1 dark:rounded-sm" alt="KIT"/>
                         <div>
                             <p>2015 - 2018</p>
                             <h3 className="font-bold">B.Sc. {translate('LABEL#INDUSTRIAL_ENGINEERING')}</h3>
